@@ -11,11 +11,13 @@ function initialize() {
   var markers = [];
   var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 
+
   var marker = new google.maps.Marker({
       position: myLatlng,
       map: map,
       draggable: true,
-      title: 'Hello World!'
+      title: 'Gasolina',
+      icon: 'http://google-maps-icons.googlecode.com/files/gazstation.png'
   });
 
   // Create the search box and link it to the UI element.
@@ -54,7 +56,8 @@ function initialize() {
         map: map,
         title: place.name,
         position: place.geometry.location,
-        draggable: true
+        draggable: true,
+        icon: 'http://google-maps-icons.googlecode.com/files/gazstation.png'
       });
 
       markers.push(marker);
