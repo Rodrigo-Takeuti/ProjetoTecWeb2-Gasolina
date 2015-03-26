@@ -69,20 +69,6 @@
                 <p>5) Entressafra de cana: os preços do álcool são afetados pelo período de entressafra da cana-de-açúcar e pela redução da produção das usinas, que preferem aumentar a fabricação de açúcar devido à alta da cotação internacional do produto (por isso Mantega zerou as alíquotas de PIS e COFINS do etanol para incentivar as indústrias).</p>
                 
                 <p>6) Autossuficiência? Não somos de fato autossuficientes. O petróleo que extraímos tem densidade média ou pesada. Nossas refinarias foram construídas na década de 70 para refinar o petróleo leve do Oriente Médio. Em outras palavras, o petróleo que extraímos não nos serve totalmente. Então, o paradoxo, exportamos laranja para importar suco, exportamos o nosso petróleo e importamos o do Oriente Médio – sujeito a variações de preço por instabilidades econômicas, guerras etc.</p>
-            <hr>
-            <!-- /item list -->
-      
-             <p>
-                <a href="http://www.bootply.com/render/129229"></a>  <a href="http://bootply.com/129229"></a>
-            </p>
-      
-            <hr> 
-        
-            <p>
-                <a href="http://bootply.com" target="_ext" class="center-block btn btn-primary"></a>
-            </p>
-        
-            <hr>
 
             </div>
     
@@ -90,14 +76,9 @@
     </div>
 </div>    
 <!-- end template -->
-
-	<!-- script references -->
-		<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrapjs.js"></script>
-		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
-		<script src="js/javascript.php"></script>
-  -->
-  
+  <footer>
+      <p>Copyright</p>
+  </footer>
 	</body>
 </html>
 
