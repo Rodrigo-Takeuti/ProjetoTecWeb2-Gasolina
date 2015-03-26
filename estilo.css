@@ -9,7 +9,20 @@ body{
 h2 {
 padding-top:25px;
 
+
 }
+
+
+.P1 {
+    font-size:25px;
+    font-family:Calibri;
+}
+
+.P2 {
+    font-style:italic;
+    font-size:16px;
+}
+
 
 iframe {
 padding-top:35px;
