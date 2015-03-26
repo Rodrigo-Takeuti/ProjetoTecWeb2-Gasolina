@@ -57,20 +57,6 @@
                 <input type="button" value="Buscar" onclick="initialize()"/><br><br>
                 <div id="map" style="width: 600px; height: 450px"></div>
                 <!--<span class="input-group-addon"><span class="glyphicon glyphicon-search"></span> </span> -->
-            <hr>
-            <!-- /item list -->
-      
-             <p>
-                <a href="http://www.bootply.com/render/129229"></a>  <a href="http://bootply.com/129229"></a>
-            </p>
-      
-            <hr> 
-        
-            <p>
-             <a href="#" class="center-block btn btn-primary"></a>
-            </p>
-        
-            <hr>
 
             </div>
             
@@ -149,6 +135,10 @@
 		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
 		<script src="js/javascript.php"></script>
   -->
+  <br><br>
+  <footer>
+      <p>Copyright</p>
+  </footer>
   
 	</body>
 </html>
