@@ -18,7 +18,7 @@
         <body onload="initialize()">
 <!-- begin template -->
 <div class="navbar navbar-custom navbar-fixed-top">
- <div class="navbar-header"><a class="navbar-brand" href="#">Logo</a>
+    <div class="navbar-header"><a class="navbar-brand" href="Principal.php">Logo</a>
       <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -27,9 +27,10 @@
     </div>
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Quem Somos</a></li>
-        <li><a href="#">Entenda o Preço da gasolina</a></li>
+         <li class="active"><a href="Principal.php">Home</a></li>
+        <li><a href="QuemSomos.php">Quem Somos</a></li>
+        <li><a href="GasolinaCara.php">Entenda o Preço da gasolina</a></li>
+        <li><a href="Faq.php">FAQ</a></li>
         <li>&nbsp;</li>
       </ul>
       <form class="navbar-form">
@@ -67,14 +68,14 @@
 </div>    
 <!-- end template -->
 
-	<!-- script references -->
-		<!-- <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="js/bootstrapjs.js"></script>
-		<script src="http://maps.googleapis.com/maps/api/js?sensor=false&extension=.js&output=embed"></script>
-		<script src="js/javascript.php"></script>
-  -->
+  <br></br>
+  
+    <footer>
+      <p>Copyright</p>
+  </footer>
   
 	</body>
+        
 </html>
 
 
