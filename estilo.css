@@ -1,14 +1,13 @@
 html,body{
-  	height:100%;
+ height:100%;
 }
 
 body{
-  	padding-top:50px; /*padding for navbar*/
+ padding-top:50px; /*padding for navbar*/
 }
 
 h2 {
-padding-top:25px;
-
+padding-top:30px;
 
 }
 
@@ -141,6 +140,16 @@ html, body, #map-canvas {
           display:inline; 
           
       }
+      
+      #tabelaComPrecos{
+        //  width:250px; 
+         // height:250px;
+          scrolling:yes; //no 
+        //  frameborder:0; 
+         // marginheight:0; 
+         // marginwidth:0;
+          padding-top: 300px;
+      }
       #gasolina{
           background-color: red;
           color: whitesmoke; 
@@ -152,6 +161,9 @@ html, body, #map-canvas {
        #disel{
           background-color: orange;
           color: white; 
+      }
+      #estiloNum{
+          color:#168ccc;
       }
       
 
