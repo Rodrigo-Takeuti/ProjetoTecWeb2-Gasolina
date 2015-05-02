@@ -11,6 +11,7 @@
 			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
 		<![endif]-->
 		<link href="estilo.css" rel="stylesheet">
+                <script type ="text/javascript" src="javaScript.js"></script>
                 <script type ="text/javascript" src="script.js"></script>
                 <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true&libraries=places"></script>
 
@@ -18,19 +19,33 @@
         <body onload="initialize()">
 <!-- begin template -->
 <div class="navbar navbar-custom navbar-fixed-top">
+    
     <div class="navbar-header"><a class="navbar-brand" href="Principal.php"><img src="logo1.png"><img src="logo2.png"></a>
-      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+    
+        <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" onclick="menu()">
+            <nav>
+        <ul>
+           <span class="icon-bar"></span>    <!--<li><a href="Principal.php">Home</li></a>-->
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+        </ul>
+            </nav>
       </a>
-    </div>
+    </div> 
+    
     <div class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
           <li class="active"><a href="Principal.php">Home</a></li>
           <li><a href="QuemSomos.php">Quem Somos</a></li>
         <li><a href="GasolinaCara.php">Entenda o Preço da gasolina</a></li>
         <li><a href="Faq.php">FAQ</a></li>
+        <li><a href="CadastroForm.php">Cadastre-se</a></li> 
+<!--          <li class="active"><a href="Principal.php">Home</a></li>
+          <li><a href="QuemSomos.php">Quem Somos</a></li>
+        <li><a href="GasolinaCara.php">Entenda o Preço da gasolina</a></li>
+        <li><a href="Faq.php">FAQ</a></li>-->
+
         <li>&nbsp;</li>
       </ul>
       <form class="navbar-form">
@@ -39,7 +54,7 @@
             <div class="input-group-btn">
               
             </div>
-            
+
           </div>
         </div>
       </form>
@@ -47,11 +62,12 @@
 </div>
 
 <div>
+
     <div class="container-fluid" id="main">
         <div class="row">
             <div class="col-xs-8" id="left">
                 <br>
-                <h2>Preço dos Combustíveis</h2><br>
+                <h2 id="centralizandoC">Preço dos Combustíveis</h2><br>
                 <input type="hidden" id="latitude"/>
                 <input type="hidden" id="longitude"/>
                 <input id="pac-input" class="controls" type="text" placeholder="Search Box"/>
@@ -146,9 +162,3 @@
   
 	</body>
 </html>
-
-
-
-<?php
-
-?>

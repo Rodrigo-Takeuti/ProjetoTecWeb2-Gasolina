@@ -14,7 +14,7 @@
         <body onload="initialize()">
 <!-- begin template -->
 <div class="navbar navbar-custom navbar-fixed-top">
-    <div class="navbar-header"><a class="navbar-brand" href="Principal.php">Logo</a>
+    <div class="navbar-header"><a class="navbar-brand" href="Principal.php"><img src="logo1.png"><img src="logo2.png"></a>
       <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -27,6 +27,7 @@
         <li><a href="QuemSomos.php">Quem Somos</a></li>
         <li><a href="GasolinaCara.php">Entenda o Preço da gasolina</a></li>
         <li><a href="Faq.php">FAQ</a></li>
+        <li><a href="CadastroForm.php">Cadastre-se</a></li>
         <li>&nbsp;</li>
       </ul>
       <form class="navbar-form">
@@ -47,9 +48,9 @@
         <div class="row">
             <div class="col-xs-8" id="left">
                 <br>
-                <h2>FAQ - Perguntas frequentes</h2><br>
+                <h2 id="centralizandoC">FAQ - Perguntas frequentes</h2><br>
                 
- <h3>Os preços são atuais? Qual a periodicidade de atualização?</h3>
+                <h3>Os preços são atuais? Qual a periodicidade de atualização?</h3>
 Sim, os preços são atualizados semanalmente. O sistema utiliza dados coletados pela Agência Nacional do Petróleo, 
 Gás Natural e Biocombustíveis (ANP). A ANP coleta os dados durante a semana. 
 No final de semana, nosso sistema obtém os dados, associa com a localização geográfica dos postos e 

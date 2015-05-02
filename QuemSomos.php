@@ -18,7 +18,7 @@
         <body onload="initialize()">
 <!-- begin template -->
 <div class="navbar navbar-custom navbar-fixed-top">
-    <div class="navbar-header"><a class="navbar-brand" href="Principal.php">Logo</a>
+    <div class="navbar-header"><a class="navbar-brand" href="Principal.php"><img src="logo1.png"><img src="logo2.png"></a>
       <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -31,6 +31,7 @@
         <li><a href="QuemSomos.php">Quem Somos</a></li>
         <li><a href="GasolinaCara.php">Entenda o Preço da gasolina</a></li>
         <li><a href="Faq.php">FAQ</a></li>
+        <li><a href="CadastroForm.php">Cadastre-se</a></li>
         <li>&nbsp;</li>
       </ul>
       <form class="navbar-form">
@@ -51,10 +52,16 @@
         <div class="row">
             <div class="col-xs-8" id="left">
                 <br>
-                <h2>Quem Somos?</h2><br>
+                <h2 id="centralizandoC">Quem Somos?</h2><br>
                 
                 
-                <p class="P1">Somos uma equipe de estudantes de Ciência da Computação e desenvolvemos esse site com o objetivo de ajudar os usuários motoristas a encontrar os postos de gasolina com os melhores preços dos combustíveis. Levando em conta o atual preço da gasolina, achamos que esse site seria uma boa solução apara aqueles que querem encotrar os melhores postos de gasolina para abastecer seu carro. Aqui você fará a busca pelos postos da região desejada e encotrará todos os postos presentes e os preços dos combustíveis(Gasolina, Álcool e Diesel). Esperamos que nosso site seja de extrema utilidade para todos vocês usuários!</p>
+                <p class="P1">Somos uma equipe de estudantes de Ciência da Computação e desenvolvemos esse 
+                    site com o objetivo de ajudar os usuários motoristas a encontrar os postos de gasolina 
+                    com os melhores preços dos combustíveis. Levando em conta o atual preço da gasolina, 
+                    achamos que esse site seria uma boa solução apara aqueles que querem encotrar os melhores 
+                    postos de gasolina para abastecer seu carro. Aqui você fará a busca pelos postos da região 
+                    desejada e encotrará todos os postos presentes e os preços dos combustíveis(Gasolina, Álcool e Diesel). 
+                    Esperamos que nosso site seja de extrema utilidade para todos vocês usuários!</p>
                 <p class="P2"> Agradecemos desde já o seu apoio - Amanda, Leonardo e Rodrigo. </p>                    
                 
             <!-- /item list -->
@@ -77,29 +84,3 @@
 	</body>
         
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<?php
-?>
