@@ -82,7 +82,7 @@
                 <iframe src="http://www.precodoscombustiveis.com.br/widget/iframe?id=3239&altura=700&largura=700&ordem=gasolina"></iframe>
               id="tabela"-->
                <table id="tabelaPreco" border="1">
-                  <thead>
+                  <thead id="tabelaPrecoHead">
 +                       <tr>
 +                           <td><b>Nome Do Posto</b></td>
 +                           <td id="gasolina"><b>Gasolina</b></td>
