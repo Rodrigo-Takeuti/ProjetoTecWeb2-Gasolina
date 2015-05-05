@@ -151,7 +151,13 @@ html, body, #map-canvas {
         //  frameborder:0; 
          // marginheight:0; 
          // marginwidth:0;
-          padding-top: 300px;
+          padding-top: 250px;
+      }
+      
+      #tabelaPreco{
+          border: 1px solid black;
+          font-size: 14px;
+          font-weight: bold;
       }
       #gasolina{
           background-color: red;
@@ -161,9 +167,15 @@ html, body, #map-canvas {
           background-color: green;
           color: white; 
       }
-       #disel{
+       #diesel{
           background-color: orange;
           color: white; 
+      }
+      .odd{
+          background-color: gray;
+      }
+      .even{
+          background-color: white;
       }
       #estiloNum{
           color:#168ccc;
