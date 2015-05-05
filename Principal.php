@@ -78,70 +78,67 @@
             </div>
             
            <div id="tabelaComPrecos"> 
-              <iframe src="http://www.precodoscombustiveis.com.br/widget/iframe?id=3243&altura=500&largura=500&ordem=gasolina"></iframe> 
-           <!--   <iframe src="http://www.precodoscombustiveis.com.br/widget/iframe?id=3239&altura=700&largura=700&ordem=gasolina"></iframe>
-              <!--id="tabela"-->
-               <?php 
-//               
-//        $tabela[0][0] = 'Posto1';
-//        $tabela[0][1] = 'gas1';
-//        $tabela[0][2] = 'alc1';
-//        $tabela[0][3] = 'dis1';
-//        
-//        $tabela[1][0] = 'Posto2';
-//        $tabela[1][1] = 'gas2';
-//        $tabela[1][2] = 'alc2';
-//        $tabela[1][3] = 'dis2';
-//        
-//        $tabela[2][0] = 'Posto3';
-//        $tabela[2][1] = 'gas3';
-//        $tabela[2][2] = 'alc3';
-//        $tabela[2][3] = 'dis3';
-//        
-//        $tabela[3][0] = 'Posto4';
-//        $tabela[3][1] = 'gas4';
-//        $tabela[3][2] = 'alc4';
-//        $tabela[3][3] = 'dis4';
-//        
-//        $tabela[4][0] = 'Posto5';
-//        $tabela[4][1] = 'gas5';
-//        $tabela[4][2] = 'alc5';
-//        $tabela[4][3] = 'dis5'; 
-//
-//                 echo '<table border=1>';
-//                 echo '<tr>';
-//        
-//                echo '<td><h3> Posto </h3></td>';
-//                echo'<td id="gasolina"><h3> Gasolina </h3></td>';
-//                echo'<td id="alcool"><h3> Alcool </h3></td>';
-//                echo'<td id="disel"><h3> Disel </h3></td>';
-//                
-//                        echo'</tr>';
-//                        
-//   
-//        //linha 
-//        for($i=0;$i<=4;$i++){
-//            $tabela[$i];
-//            
-//            for($j=0;$j<=3;$j++){
-//                echo '<tr>';
-//                $tabela[$j];
-//            }
-
-//                    '</tr>';
-//         $coluna = $tabela[$i];
-//         
-//                    //coluna
-//                    for($k=0;$k<4;$k++){
-//    
-//                       echo"<td> $coluna[$k] </td>";
-//
-//                   }
-//                echo "</tr>";
-//            }
-//            echo'</table>';
-//            
-//            ?>
+              <!--<iframe src="http://www.precodoscombustiveis.com.br/widget/iframe?id=3243&altura=500&largura=500&ordem=gasolina"></iframe> 
+                <iframe src="http://www.precodoscombustiveis.com.br/widget/iframe?id=3239&altura=700&largura=700&ordem=gasolina"></iframe>
+              id="tabela"-->
+               <table id="tabelaPreco" border="1">
+                  <thead>
++                       <tr>
++                           <td><b>Nome Do Posto</b></td>
++                           <td id="gasolina"><b>Gasolina</b></td>
++                           <td id="alcool"><b>Álcool</b></td>
++                           <td id="diesel"><b>Diesel</b></td>
++                       </tr>
+                  </thead>
+                  <tbody>
+                        <?php
+                            include "conecta_mysql.php";
+                            
+                            $resultado = mysqli_query($conexao, "SELECT * from postosgasolina");
+                            $i = 0;
+                            
+                            if($resultado)
+                            {
+                                while($row = mysqli_fetch_array($resultado))
+                                {
+                                    if($i % 2 == 0)
+                                    {
+                                        echo "<tr class = 'odd'>";
+                                        echo "<td>"; 
+                                        echo $row["nomePosto"];
+                                        echo "</td>";
+                                        echo "<td>";
+                                        echo $row["gasolina"];
+                                        echo "</td>";
+                                        echo "<td>";
+                                        echo $row["alcool"];
+                                        echo "</td>";
+                                        echo "<td>";
+                                        echo $row["diesel"];
+                                        echo "</td>";
+                                        echo "</tr>";
+                                    }else{
+                                        echo "<tr class = 'even'>";
+                                        echo "<td>"; 
+                                        echo $row["nomePosto"];
+                                        echo "</td>";
+                                        echo "<td>";
+                                        echo $row["gasolina"];
+                                        echo "</td>";
+                                        echo "<td>";
+                                        echo $row["alcool"];
+                                        echo "</td>";
+                                        echo "<td>";
+                                        echo $row["diesel"];
+                                        echo "</td>";
+                                        echo "</tr>";
+                                    }
+                                    $i++;
+                                }
+                            }
+                        ?>
+                  </tbody>
+               </table>
             </div>
             
         </div>
