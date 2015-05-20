@@ -105,7 +105,7 @@
                                     {
                                         echo "<tr class = 'odd'>";
                                         echo "<td>"; 
-                                        echo $row["nomePosto"];
+                                        echo '<a href="" id="pac-input" type="text" value="' . $row["endereco"] . '" onclik="initialize()">' . $row["nomePosto"] . '</a>';
                                         echo "</td>";
                                         echo "<td>";
                                         echo $row["gasolina"];
@@ -120,7 +120,7 @@
                                     }else{
                                         echo "<tr class = 'even'>";
                                         echo "<td>"; 
-                                        echo $row["nomePosto"];
+                                        echo '<a href="" id="pac-input" type="text" value="' . $row["endereco"] . '" onclik="initialize()">' . $row["nomePosto"] . '</a>';
                                         echo "</td>";
                                         echo "<td>";
                                         echo $row["gasolina"];
