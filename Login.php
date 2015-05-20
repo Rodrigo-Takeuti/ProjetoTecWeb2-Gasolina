@@ -32,6 +32,7 @@
         <li><a href="GasolinaCara.php">Entenda o Preço da gasolina</a></li>
         <li><a href="Faq.php">FAQ</a></li>
         <li><a href="CadastroForm.php">Cadastre-se</a></li>
+        <li><a href="Login.php">Login</a></li>
         <li>&nbsp;</li>
       </ul>
       <form class="navbar-form">
@@ -57,7 +58,7 @@
                 <h4>Atenção: Apenas donos de postos de gasolina.</h4>
             <form action="recebendoDadosForm.php" method="POST">
                   <p><label for="email"> E-mail:</label> <input type="email" name="email" id="email" size="30" /></p>
-                  <p><label for="senha"> Senha:</label> <input type="senha" name="senha" id="senha" size="30" /></p>                       
+                  <p><label for="senha"> Senha:</label> <input type="password" name="senha" id="senha" size="30" /></p>                       
                       <p><input type="submit" value="Enviar" name="enviar" > 
                             <input type="reset" value="Reset" name="reset"></p>     
             </form>

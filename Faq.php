@@ -28,6 +28,7 @@
         <li><a href="GasolinaCara.php">Entenda o Preço da gasolina</a></li>
         <li><a href="Faq.php">FAQ</a></li>
         <li><a href="CadastroForm.php">Cadastre-se</a></li>
+        <li><a href="Login.php">Login</a></li>
         <li>&nbsp;</li>
       </ul>
       <form class="navbar-form">
