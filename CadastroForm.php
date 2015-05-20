@@ -57,13 +57,15 @@
                 <h4>Atenção: Apenas donos de postos de gasolina.</h4>
             <form action="recebendoDadosForm.php" method="POST">
                 <p><label for="nome"> Nome:</label> <input type="text" name="nome" id="nome" size="30" /></p>
-                  <p><label for="email"> E-mail:</label> <input type="email" name="email" id="email" size="30" /></p>
-                  <p><label for="senha"> Senha:</label> <input type="senha" name="senha" id="senha" size="30" /></p>
-                    <p><label for="nomePosto"> Nome do seu posto:</label> <input type="text" name="nomePosto" id="nomePosto" size="30" /></p>
-                      <p><label for="gasolina"> Preço da GASOLINA:</label> <input type="text" name="gasolina" id="precoGas" size="10" />
-                       <label for="alcool"> Preço do ÁLCOOL:</label> <input type="text" name="alcool" id="precoAlc" size="10" />     
-                         <label for="diesel"> Preço do DIESEL:</label> <input type="text" name="diesel" id="precoDies" size="10" /></p>                        
-                      <p><input type="submit" value="Enviar" name="enviar" > 
+                <p><label for="email"> E-mail:</label> <input type="email" name="email" id="email" size="30" /></p>
+                <p><label for="senha"> Senha:</label> <input type="senha" name="senha" id="senha" size="30" /></p>
+                <p><label for="nomePosto"> Nome do seu posto:</label> <input type="text" name="nomePosto" id="nomePosto" size="30" /></p>
+                <p><label for="endereco"> Endereço:</label> <input type="endereco" name="endereco" id="endereco" size="30" /></p>
+                 <p><label for="gasolina"> Preço da GASOLINA:</label> <input type="text" name="gasolina" id="precoGas" size="10" />
+                     <label for="alcool"> Preço do ÁLCOOL:</label> <input type="text" name="alcool" id="precoAlc" size="10" /> 
+                  <label for="diesel"> Preço do DIESEL:</label> <input type="text" name="diesel" id="precoDies" size="10" /></p>    
+                      
+                         <p><input type="submit" value="Enviar" name="enviar" > 
                             <input type="reset" value="Reset" name="reset"></p>     
             </form>
     
