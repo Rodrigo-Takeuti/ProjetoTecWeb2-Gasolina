@@ -3,6 +3,7 @@
     $email = $_POST["email"];
     $senha = $_POST["senha"];
     $nomePosto = $_POST["nomePosto"];
+    $endereco = $_POST["endereco"];
     $gasolina = $_POST["gasolina"];
     $alcool = $_POST["alcool"];
     $diesel = $_POST["diesel"];
@@ -23,6 +24,11 @@
             }
             if(empty($nomePosto)){
                 echo 'Por favor, informe o nome do seu posto.';
+                $erro=1;
+            }
+            if(empty($endereco))
+            {
+                echo 'Por favor, informe seu endereço';
                 $erro=1;
             }
                 if(empty($gasolina) or strstr($gasolina, '0.00'==FALSE)){
