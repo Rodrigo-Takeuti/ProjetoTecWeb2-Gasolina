@@ -58,6 +58,7 @@
             <form action="recebendoDadosForm.php" method="POST">
                 <p><label for="nome"> Nome:</label> <input type="text" name="nome" id="nome" size="30" /></p>
                   <p><label for="email"> E-mail:</label> <input type="email" name="email" id="email" size="30" /></p>
+                  <p><label for="senha"> Senha:</label> <input type="senha" name="senha" id="senha" size="30" /></p>
                     <p><label for="nomePosto"> Nome do seu posto:</label> <input type="text" name="nomePosto" id="nomePosto" size="30" /></p>
                       <p><label for="gasolina"> Preço da GASOLINA:</label> <input type="text" name="gasolina" id="precoGas" size="10" />
                        <label for="alcool"> Preço do ÁLCOOL:</label> <input type="text" name="alcool" id="precoAlc" size="10" />     
